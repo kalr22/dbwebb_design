@@ -6,6 +6,7 @@ Description: This is our index page.
 Home page
 ==========================
 
-The source for this page is in `content/index.md`.
+<!-- ![Bild på Karoline](%assets_url%/img/karoline.jpg){.me} -->
+![Bild på Karoline](%base_url%/image/karoline.jpg){.me}
 
-This is a sample home page written in markdown with some frontmatter defined.
+Hej! Jag heter Karoline Lindroos och går programmet Webbprogrammering och databaser vid Blekinge Tekniska Högskola. På fritiden föredrar jag att resa och dyka, även meditation är något jag ägnar mig åt. 
