@@ -1,8 +1,8 @@
 ---
-Logo: assets/image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: image/kl-logo.jpg
+Tagline: Min portfölj
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/kalr22/dbwebb_design
       icon: github
 ---
