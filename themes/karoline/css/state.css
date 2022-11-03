@@ -4,7 +4,7 @@
 /* They are about describing how a module or layout looks on screens that are smaller or bigger. */
 /* They are also about describing how a module might look in different views like the home page or the inside page. */
 
-/* ---- Settings for mobile-version ---- */
+/* ---- Settings for mobile-version navbar ---- */
 @media (max-width: 767px) {
     .header {
         flex-direction: column;
