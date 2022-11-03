@@ -1,5 +1,5 @@
 ---
-Logo: image/kl-logo.jpg
+Logo: image/stars.png
 Tagline: Min portfölj
 Social:
     - title: Link till sidans github repo.
