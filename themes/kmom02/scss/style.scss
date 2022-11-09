@@ -1,9 +1,12 @@
 @import '../../node_modules/normalize.css/normalize';
 @import 'variables';
+@import 'typography';
 @import 'blockquotes';
 @import 'code';
 @import 'navbar';
 @import 'state';
+
+// @import 'test';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -12,10 +15,6 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Nunito:wght@600&family=Oswald&display=swap');
-
-html {
-    line-height: 1.5;
-}
 
 body {
     // background-color: $background-color;
@@ -47,12 +46,6 @@ h6 {
     padding: 0;
 }
 
-.main {
-    flex: 1 0 auto;
-    margin: 0 auto;
-    max-width: 900px;
-}
-
 .header,
 .footer {
     flex: 0 0 auto;
@@ -70,8 +63,4 @@ h6 {
 
 .me {
     height: 300px;
-}
-
-.fab {
-    font-size: 30px;
 }

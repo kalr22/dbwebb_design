@@ -1,0 +1,29 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: $base-line-height;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number;
+}
+
+.fab {
+    font-size: 1.5em;
+}
+
+.main {
+    margin: 0 auto;
+    max-width: 67rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}

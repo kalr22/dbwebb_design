@@ -1,0 +1,19 @@
+.old-fashioned {
+    box-sizing: content-box;
+    width: 300px;
+    height: 200px;
+    background-color: crimson;
+}
+
+.modern {
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    background-color: cornflowerblue;
+}
+
+.worst-ever {
+    background-color: coral;
+    width: 100vh;
+    height: 40vw;
+}
