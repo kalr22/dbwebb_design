@@ -2,7 +2,10 @@
 Logo: image/stars.png
 Tagline: Min portfölj
 Social:
+    - title: Länk till discord
+      url: https://discord.com/channels/118332969004957705/760604690475253792
+      icon: fab fa-discord
     - title: Link till sidans github repo.
       url: https://github.com/kalr22/dbwebb_design
-      icon: github
+      icon: fab fa-github
 ---
