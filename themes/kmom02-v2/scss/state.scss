@@ -1,0 +1,55 @@
+/* ---- Settings for mobile-version navbar ---- */
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .title {
+        flex-grow: 2;
+    }
+
+    .nav {
+        ul {
+            flex-direction: column;
+            padding-bottom: 1em;
+        }
+
+        li {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        a {
+            display: block;
+            padding: 0.5em 0;
+        }
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+/* ---- Settings for mobile-version main ---- */
+@media (max-width: 767px) {
+    .main {
+        padding: 20px;
+        
+        :first-child {
+            text-align: center;
+        }
+
+        .me {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
