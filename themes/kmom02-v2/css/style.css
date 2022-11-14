@@ -486,6 +486,36 @@ pre code {
     margin: 0 auto;
   }
 }
+.grid {
+  display: grid;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  grid-template-columns: 200px auto;
+  grid-template-rows: 200px 600px 200px;
+}
+
+.header-test {
+  grid-area: 1/1/3/1;
+}
+
+.main-test {
+  grid-column: 2/2;
+  grid-row: 2/3;
+}
+
+.side-bar-test {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.footer-test {
+  grid-column: 1/3;
+  grid-row: 3/3;
+}
+
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -6656,4 +6686,6 @@ h6 {
 
 .me {
   height: 300px;
+  max-width: 100%;
+  display: block;
 }

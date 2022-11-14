@@ -10,7 +10,8 @@
         text-decoration: none;
     }
 
-    h1, p{
+    h1,
+    p {
         color: $font-alternative-color;
     }
 
@@ -73,7 +74,5 @@
 .header {
     background-color: $accent-color;
     color: $font-alternative-color;
-    clip-path: polygon(0% 0%,100% 0%,100% calc(100% - 3em),0% 100%);
-    // border-bottom: 5px double $accent-alternative-color;
-    // background: url('../../../assets/img/header_pic.jpg');
+    clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 3em), 0% 100%);
 }

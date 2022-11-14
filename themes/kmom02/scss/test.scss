@@ -2,18 +2,18 @@
     box-sizing: content-box;
     width: 300px;
     height: 200px;
-    background-color: crimson;
+    background-color: rgb(244, 6, 6);
 }
 
 .modern {
     box-sizing: border-box;
     width: 50%;
     height: auto;
-    background-color: cornflowerblue;
+    background-color: rgb(34, 14, 250);
 }
 
 .worst-ever {
-    background-color: coral;
+    background-color: rgb(247, 154, 96);
     width: 100vh;
     height: 40vw;
 }

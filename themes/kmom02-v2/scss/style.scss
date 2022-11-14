@@ -6,7 +6,7 @@
 @import 'navbar';
 @import 'state';
 
-// @import 'test';
+@import 'test';
 
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
@@ -53,7 +53,6 @@ h6 {
 .footer {
     display: flex;
     justify-content: space-between;
-    // border-top: 5px double $accent-color;
     background-color: $background-color-footer;
     margin-top: 30px;
     height: 200px;
@@ -75,5 +74,6 @@ h6 {
 
 .me {
     height: 300px;
-    // clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    max-width: 100%;
+    display: block;
 }
