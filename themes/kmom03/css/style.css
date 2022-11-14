@@ -498,14 +498,20 @@ pre code {
 /* ---- Settings for mobile-version main ---- */
 @media (max-width: 767px) {
   .main {
-    padding: 20px;
+    padding: 2rem;
   }
   .main :first-child {
     text-align: center;
   }
-  .main .me {
-    display: block;
-    margin: 0 auto;
+  .main .wrap-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .main .wrap-me .me {
+    width: 20rem;
+    margin: 2rem 0;
   }
 }
 /* ---- Settings for mobile-version technologies ---- */
@@ -6824,8 +6830,19 @@ h6 {
   justify-content: flex-end;
 }
 
-.me {
-  height: 300px;
-  max-width: 100%;
+.wrap-me .me {
   display: block;
+  float: left;
+  margin-right: 3rem;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.wrap-me img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s ease-in-out;
+}
+.wrap-me .me:hover img {
+  transform: scale(1.2, 1.2) rotate(10deg);
 }

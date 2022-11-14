@@ -47,15 +47,22 @@
 /* ---- Settings for mobile-version main ---- */
 @media (max-width: 767px) {
     .main {
-        padding: 20px;
+        padding: 2rem;
         
         :first-child {
             text-align: center;
         }
 
-        .me {
-            display: block;
-            margin: 0 auto;
+        .wrap-me {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            
+            .me {
+                width: 20rem;
+                margin: 2rem 0;
+            }
         }
     }
 }
