@@ -470,7 +470,7 @@ pre code {
   }
   .nav ul {
     flex-direction: column;
-    padding: 0px;
+    padding: 0;
   }
   .nav li {
     display: flex;
@@ -580,15 +580,18 @@ pre code {
   padding: 0 1em;
 }
 .tech p:nth-of-type(1) {
-  border-right: 1px solid black;
+  border-right: 1px solid #000;
 }
 .tech p:nth-of-type(2) {
-  border-right: 1px solid black;
+  border-right: 1px solid #000;
 }
 .tech pre {
   grid-column: span 3;
   max-width: 100%;
   overflow: hidden;
+}
+.tech .sqlite {
+  border: 0 !important;
 }
 
 .sidebar {
@@ -631,7 +634,7 @@ pre code {
     display: none;
   }
   .tech {
-    padding: 0px;
+    padding: 0;
   }
   .tech h1 {
     grid-column: span 1;
@@ -644,7 +647,7 @@ pre code {
   }
   .tech p:nth-of-type(1),
   .tech p:nth-of-type(2) {
-    border-right: 0px;
+    border-right: 0;
   }
 }
 /*!
