@@ -8,4 +8,7 @@ Social:
     - title: Link till sidans github repo.
       url: https://github.com/kalr22/dbwebb_design
       icon: fab fa-github
+    - title: Länk till linkedin
+      url: https://www.linkedin.com/in/karoline-lindroos-38a424234/
+      icon: fab fa-linkedin
 ---
