@@ -1,0 +1,151 @@
+.landingpage {
+    display: grid;
+    min-width: 30rem;
+    gap: 1em 1em;
+
+    a {
+        color: $font-alternative-color;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        transition: color 1s ease;
+    }
+
+    a::after {
+        display: block;
+        content: '';
+        border-bottom: 2px solid $font-alternative-color;
+        transform: scaleX(0);
+        transition: transform 0.6s ease;
+    }
+
+    .tech-box:hover a { color: rgb(244, 174, 121); }
+    .tech-box:hover a::after { transform: scaleX(1); }
+
+    h1 {
+        grid-column: span 3;
+        justify-self: center;
+    }
+
+    .tech-box {
+        cursor: pointer;
+        height: 3rem;
+        width: 100%;
+        background-image: linear-gradient(#3aafa9, #16958e);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tech-box:nth-of-type(1) {
+        grid-column: span 2;
+    }
+
+    .tech-box:nth-of-type(4) {
+        grid-column: span 2;
+    }
+
+    .tech-box:nth-of-type(5) {
+        grid-column: span 2;
+    }
+
+    .tech-box:last-of-type {
+        grid-column: span 3;
+    }
+}
+
+.tech {
+    padding: 0 3em;
+    
+    h1 {
+        grid-column: span 3;
+        justify-self: center;
+    }
+
+    p {
+        padding: 0 1em;
+    }
+
+    p:nth-of-type(1) {
+        border-right: 1px solid #000;
+    }
+
+    p:nth-of-type(2) {
+        border-right: 1px solid #000;
+    }
+
+    pre {
+        grid-column: span 3;
+        max-width: 100%;
+        overflow: hidden;
+
+    }
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+    padding: 1em;
+    
+    a {
+        text-decoration: none;
+        color: $font-alternative-color;
+    }
+    
+    li {
+        background-color: $background-color-footer;
+        list-style: none;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: filter 0.5s ease;
+    }
+
+    li:hover {
+        filter: brightness(0.5);
+    }
+    
+    .active {
+        background-color: $accent-color;
+        text-decoration: none;
+    }
+}
+
+/* ---- Settings for mobile-version technologies ---- */
+@media (max-width: 767px) {
+    .landingpage {
+        min-width: 20rem;
+
+        h1,
+        .tech-box {
+            grid-column: span 1 !important;
+        }
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .tech {
+        padding: 0;
+
+        h1 {
+            grid-column: span 1;
+        }
+
+        pre {
+            grid-column: span 1;
+        }
+
+        code {
+            text-align: left !important;
+        }
+
+        p:nth-of-type(1),
+        p:nth-of-type(2) {
+            border-right: 0;
+        }
+    }
+}
