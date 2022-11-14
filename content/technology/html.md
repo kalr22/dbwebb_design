@@ -9,7 +9,7 @@ HyperText Markup Language (HTML) utgör tillsammans med HyperText Transfer Proto
 
 HTML beskriver innehåll och struktur för våra webbplatser och gör det möjligt att ladda andra dokument till exempel CSS eller JavaScript filer.
 
-HTML använder sig av element beskrivna av taggar. Nedan är ett exempel på ett textstycke med en länk i:
+HTML använder sig av element beskrivna av taggar. Nedan är ett exempel på ett textstycke med en länk i &dArr;
 
 ```html
 <p>En länk till min <a href="minwebbplats.html">webbplats</a></p>

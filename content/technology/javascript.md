@@ -9,7 +9,7 @@ JavaScript är ett prototyp-baserat skriptspråk. JavaScript utgör tillsammans 
 
 JavaScript använder sig av C-like syntax, men har annars inget gemensamt med programmeringsspråket Java.
 
-Ett program som skriver ut alla jämna siffror mellan 1 och 100 kan se ut på följande sätt i JavaScript:
+Ett program som skriver ut alla jämna siffror mellan 1 och 100 kan se ut på följande sätt i JavaScript &dArr;
 
 ```javascript
 for (let i = 1; i <= 100; i++) {
