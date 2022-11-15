@@ -500,7 +500,8 @@ pre code {
   .main {
     padding: 2rem;
   }
-  .main :first-child {
+  .main :first-child,
+  .main .align-center {
     text-align: center;
   }
   .main .wrap-me {
@@ -510,6 +511,7 @@ pre code {
     width: 100%;
   }
   .main .wrap-me .me {
+    height: auto;
     width: 20rem;
     margin: 2rem 0;
   }
