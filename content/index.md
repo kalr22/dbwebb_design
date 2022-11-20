@@ -6,7 +6,7 @@ Description: This is our index page.
 About me
 ==========================
 
-<p class="align-center">Age: 30 | Location: Järna</p>
+<p class="align-center">Age: 30 | Location: Sweden</p>
 
 <div class="wrap-me">
     <div class="me">
