@@ -11,4 +11,10 @@ Social:
     - title: Länk till linkedin
       url: https://www.linkedin.com/in/karoline-lindroos-38a424234/
       icon: fab fa-linkedin
+    - title: Dark Mode
+      url: ?action=theme
+      icon: fas fa-moon
+    - title: Destroy Session
+      url: ?action=session_destroy
+      icon: fas fa-trash-alt
 ---
