@@ -1,0 +1,21 @@
+.wrap-me {
+    .me {
+        display: block;
+        float: left;
+        margin-right: 3rem;
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        transition: transform 1s ease-in-out;
+        filter: $img-filter;
+    }
+    
+    .me:hover img {
+        transform: scale(1.2, 1.2) rotate(10deg);
+    }
+}

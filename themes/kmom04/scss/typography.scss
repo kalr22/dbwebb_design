@@ -1,0 +1,23 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    line-height: $base-line-height;
+}
+
+p {
+    font-size: $base-font-size;
+    margin-bottom: $magic-number;
+}
+
+.fab,
+.fas {
+    font-size: 1.5em;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
