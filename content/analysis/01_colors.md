@@ -34,7 +34,7 @@ Wikipedias webbplats är till största delen designad med färgerna vitt och bl�
 Jag anser att Wikipedias färgval stämmer ganska bra överens med den känslan de vill uppnå från användaren, vilket jag tror är enkelhet och förtroende.
 
 #### Snapshot Wikipedia
-<img src="%base_url%/image/wikipedia.png" style="height: 300px">
+<img src="%base_url%/image/wikipedia.png">
 
 #### Färgpolett
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -52,7 +52,7 @@ Jag anser att Wikipedias färgval stämmer ganska bra överens med den känslan 
 Accentfärgerna som uppmärksammats på Wikipedias webbplats är i ett ljusare analogt färgschema. 
 
 #### Snapshot Wikipedia Accentfärg
-<img src="%base_url%/image/wikipedia-accent.png" style="height: 300px">
+<img src="%base_url%/image/wikipedia-accent.png">
 
 #### Färgpolett Accentfärg
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -81,7 +81,7 @@ Utifrån färgschemat skapat med Adobe Color visas tydligt hur en komplement-fä
 Jag anser att Ica lyckats bra med att framhäva den profil de vill åt med hjälp av färg och typografival, vilket jag tror är lyx, nytt och fräscht men samtidigt en profil av förmånliga priser.
 
 #### Snapshot Ica
-<img src="%base_url%/image/ica.png" style="height: 300px">
+<img src="%base_url%/image/ica.png">
 
 #### Färgpolett
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -110,7 +110,7 @@ Färgschemat som Youtube använder sig är en triad färgpolett där grundfärge
 Jag anser att Youtube har lyckats helt okej med färger och typografin för att motsvara den profil de vill åt, vilket jag tror är enkelhet och en känsla av struktur.
 
 #### Snapshot Youtube
-<img src="%base_url%/image/youtube.png" style="height: 300px">
+<img src="%base_url%/image/youtube.png">
 
 #### Färgpolett
 <table style="border-spacing: 4px; border-collapse: separate">

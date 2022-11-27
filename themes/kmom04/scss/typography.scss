@@ -2,6 +2,20 @@ html {
     font-size: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font_opensans, sans-serif;
+}
+
+* {
+    color: $font-color;
+    font-family: $font-roboto, $font-nunito, sans-serif;
+}
+
 body {
     line-height: $base-line-height;
 }

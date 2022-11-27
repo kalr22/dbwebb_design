@@ -313,6 +313,20 @@ html {
   font-size: 100%;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  color: #333;
+  font-family: "Roboto", "Nunito", sans-serif;
+}
+
 body {
   line-height: 1.4;
 }
@@ -350,18 +364,7 @@ body {
   height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Open Sans", sans-serif;
-}
-
 * {
-  color: #333;
-  font-family: "Oswald", sans-serif;
   box-sizing: border-box;
   border: 0 none;
   margin: 0;
@@ -410,8 +413,8 @@ pre code {
 }
 
 .logo img {
-  width: 150px;
-  padding: 2.5em 1em 3em 3em;
+  width: 100px;
+  padding: 2.5em 1em 1em 1em;
 }
 
 .title a {
@@ -779,6 +782,7 @@ pre code {
 }
 .analysis img {
   filter: brightness(1.1);
+  height: 300px;
 }
 
 /* ---- Settings for mobile-version technologies ---- */
@@ -794,6 +798,10 @@ pre code {
   .analysis {
     width: auto;
     text-align: left !important;
+  }
+  .analysis img {
+    max-width: 100%;
+    height: auto;
   }
 }
 .wrap-me .me {

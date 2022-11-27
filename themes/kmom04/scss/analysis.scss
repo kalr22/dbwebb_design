@@ -64,6 +64,7 @@
 
     img {
         filter: $img-filter;
+        height: 300px;
     }
 }
 
@@ -82,5 +83,10 @@
     .analysis {
         width: auto;
         text-align: left !important;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 }
