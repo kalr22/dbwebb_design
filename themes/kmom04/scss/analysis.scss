@@ -64,7 +64,16 @@
 
     img {
         filter: $img-filter;
-        height: 300px;
+    }
+
+    .embed-container {
+        padding-bottom: 30%;
+        margin-bottom: 2em;
+    }
+
+    ol {
+        padding-left: 2em;
+        margin-bottom: 2em;
     }
 }
 

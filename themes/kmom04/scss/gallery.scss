@@ -1,0 +1,46 @@
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    width: 80%;
+    gap: 2em;
+    margin-bottom: 2em;
+
+    h1 {
+        grid-column: span 3;
+        text-align: center;
+    }
+
+    img {
+        filter: $img-filter;
+        transition: transform 0.5s ease-in;
+    }
+
+    img:hover {
+        transform: scale(0.95, 0.95);
+    }
+}
+
+.inside-gallery.embed-container iframe {
+    left: unset;
+    width: 50%;
+    height: 50%;
+}
+
+/* ---- Settings for mobile-version technologies ---- */
+@media (max-width: 767px) {
+    .gallery {
+        display: block;
+    }
+
+    .gallery-pic {
+        display: inline-block;
+        margin-bottom: 2em;
+    }
+
+    .embed-container iframe {
+        width: 90%;
+        height: 90%;
+    }
+}
