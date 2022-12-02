@@ -14,7 +14,6 @@ Urval
 
 Urvalet för denna analys är baserat på de mest besökta webbsajterna i Sverige under 2022. Tillvägagångssättet har utförts genom en sökning på Google för att få fram Sveriges mest besökta webbsajter under 2022. Därefter valdes den första artikeln ur sökresultatet, vilket är en undersökning som SEO Bloggen gjort vid Expandtalk [1]. De webbplatser som låg i toppen var Wikipedia.org, Facebook.com, Instagram.com Ica.se samt Youtube.com. Då Facebook och Instagram kräver inloggning för att få ta del av hela sajten har ett val gjorts om att inte ta med dem i denna analys. De tre webbplatserna som slutligen valts ut till denna analys är Wikipedia.org, Ica.se samt Youtube.com.
 
-
 Metod
 -----------------------
 
@@ -34,7 +33,7 @@ Wikipedias webbplats är till största delen designad med färgerna vitt och bl�
 Jag anser att Wikipedias färgval stämmer ganska bra överens med den känslan de vill uppnå från användaren, vilket jag tror är enkelhet och förtroende.
 
 #### Snapshot Wikipedia
-<img src="%base_url%/image/wikipedia.png">
+![Screenshot Wikipedia](%base_url%/image/wikipedia.png?save-as=jpg&q=100&w=500&sharpen)
 
 #### Färgpolett
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -47,12 +46,12 @@ Jag anser att Wikipedias färgval stämmer ganska bra överens med den känslan 
 </table>
 
 #### Färghjul
-<img src="%base_url%/image/wikipedia-colorwheel.png" style="height: 200px">
+![Färghjul Wikipedia](%base_url%/image/wikipedia-colorwheel.png?q=100&w=200&sharpen)
 
 Accentfärgerna som uppmärksammats på Wikipedias webbplats är i ett ljusare analogt färgschema. 
 
 #### Snapshot Wikipedia Accentfärg
-<img src="%base_url%/image/wikipedia-accent.png">
+![Screenshot Wikipedia Accentfärg](%base_url%/image/wikipedia-accent.png?save-as=jpg&q=100&w=500&sharpen)
 
 #### Färgpolett Accentfärg
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -66,7 +65,7 @@ Accentfärgerna som uppmärksammats på Wikipedias webbplats är i ett ljusare a
 </table>
 
 #### Färghjul Accentfärg
-<img src="%base_url%/image/wikipedia-colorwheel-accent.png" style="height: 200px">
+![Färghjul Wikipedia Accentfärg](%base_url%/image/wikipedia-colorwheel-accent.png?q=100&w=200&sharpen)
 
 #### Typografi
 
@@ -81,7 +80,7 @@ Utifrån färgschemat skapat med Adobe Color visas tydligt hur en komplement-fä
 Jag anser att Ica lyckats bra med att framhäva den profil de vill åt med hjälp av färg och typografival, vilket jag tror är lyx, nytt och fräscht men samtidigt en profil av förmånliga priser.
 
 #### Snapshot Ica
-<img src="%base_url%/image/ica.png">
+![Screenshot Ica](%base_url%/image/ica.png?save-as=jpg&q=100&w=500&sharpen)
 
 #### Färgpolett
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -95,7 +94,7 @@ Jag anser att Ica lyckats bra med att framhäva den profil de vill åt med hjäl
 </table>
 
 #### Färghjul
-<img src="%base_url%/image/ica-colorwheel.png" style="height: 200px">
+![Färghjul Ica](%base_url%/image/ica-colorwheel.png?q=100&w=200&sharpen)
 
 #### Typografi
 
@@ -110,7 +109,7 @@ Färgschemat som Youtube använder sig är en triad färgpolett där grundfärge
 Jag anser att Youtube har lyckats helt okej med färger och typografin för att motsvara den profil de vill åt, vilket jag tror är enkelhet och en känsla av struktur.
 
 #### Snapshot Youtube
-<img src="%base_url%/image/youtube.png">
+![Screenshot Youtube](%base_url%/image/youtube.png?save-as=jpg&q=100&w=500&sharpen)
 
 #### Färgpolett
 <table style="border-spacing: 4px; border-collapse: separate">
@@ -124,7 +123,7 @@ Jag anser att Youtube har lyckats helt okej med färger och typografin för att 
 </table>
 
 #### Färghjul
-<img src="%base_url%/image/youtube-colorwheel.png" style="height: 200px">
+![Färghjul Youtube](%base_url%/image/youtube-colorwheel.png?q=100&w=200&sharpen)
 
 #### Typografi
 
