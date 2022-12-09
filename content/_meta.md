@@ -1,6 +1,7 @@
 ---
-Logo: image/stars.png
-Tagline: Min portfölj
+Logo: image/stars-black.png
+LogoDark: image/stars.png
+Tagline: My portfolio
 Social:
     - title: Länk till discord
       url: https://discord.com/channels/118332969004957705/760604690475253792

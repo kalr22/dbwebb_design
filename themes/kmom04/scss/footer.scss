@@ -9,7 +9,7 @@
     clip-path: polygon(100% 0%, 0% calc(100% - 7em), 0% 100%, 100% 100%);
 
     p {
-        color: $font-alternative-color;
+        color: $font-color-footer;
     }
 
     a {
@@ -18,7 +18,7 @@
 
     .fab,
     .fas {
-        color: $font-alternative-color;
+        color: $font-color-footer;
         transition: color 1s ease;
     }
 

@@ -55,3 +55,7 @@ video {
 .footer {
     flex: 0 0 auto;
 }
+
+img:not([alt]) {
+    outline: 4px #f00 dashed !important;
+}

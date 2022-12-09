@@ -19,17 +19,17 @@
     h1::after {
         display: block;
         content: '';
-        border-bottom: 2px solid $font-alternative-color;
+        border-bottom: 2px solid $font-color;
         transform: scaleX(0);
         transition: transform 0.6s ease;
     }
 
     h1:hover::after { transform: scaleX(1); }
 
-    h1,
-    p {
-        color: $font-alternative-color;
-    }
+    // h1,
+    // p {
+    //     color: $font-color-header;
+    // }
 
     p {
         cursor: default;
@@ -38,7 +38,7 @@
 
 .active {
     text-decoration: underline;
-    color: $font-alternative-color;
+    color: $font-color;
 }
 
 .slide {
@@ -60,17 +60,18 @@
 
     a {
         text-decoration: none;
-        transition: filter 0.6s ease;
+        transition: color 0.6s ease, text-decoration 0.6s ease;
     }
     
     a:hover {
-        filter: brightness(0.5);
+        color: $background-color;
+        text-decoration: underline;
     }
 }
 
 .nav a,
 .nav-toggle {
-    color: $font-alternative-color;
+    color: $font-color;
 }
 
 .nav-toggle {
@@ -89,6 +90,6 @@
 
 .header {
     background-color: $background-color-header;
-    color: $font-alternative-color;
+    // color: $font-color-header;
     clip-path: polygon(0% 0%, 100% 0%, 100% calc(100% - 3em), 0% 100%);
 }

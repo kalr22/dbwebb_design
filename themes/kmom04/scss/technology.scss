@@ -2,7 +2,7 @@
     display: grid;
     width: 80%;
     margin: 0 auto;
-    gap: 1em 1em;
+    gap: 2em;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(9, 7em);
 
@@ -58,6 +58,7 @@
 .tech-box {
     position: relative;
     overflow: hidden;
+    transition: transform 0.5s ease-in;
 
     img {
         width: 100%;
@@ -73,10 +74,14 @@
         top: 0;
         left: 0;
         background-color: $technology-header;
-        color: $font-alternative-color;
+        color: $font-color-footer;
         text-decoration: none;
         transition: background-color 1s ease;
     }
+}
+
+.tech-box:hover {
+    transform: scale(0.95, 0.95);
 }
 
 .tech-box:hover .header-link {
@@ -90,7 +95,9 @@
     
     h1 {
         grid-column: span 3;
-        justify-self: center;
+        text-align: center;
+        margin-top: 0;
+        padding-top: 0;
     }
 
     p {
@@ -124,7 +131,7 @@
     
     a {
         text-decoration: none;
-        color: $font-alternative-color;
+        color: $font-color-footer;
     }
     
     li {
@@ -145,6 +152,10 @@
     .active {
         background-color: $accent-color;
         text-decoration: none;
+    }
+
+    .active > a {
+        color: $font-color;
     }
 }
 

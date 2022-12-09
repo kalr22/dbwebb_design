@@ -22,7 +22,7 @@
         height: 100%;
         text-decoration: none;
         background-color: $accent-color-alternative;
-        color: $font-alternative-color;
+        color: $font-color-footer;
         position: relative;
         z-index: 1;
     }
@@ -50,16 +50,27 @@
     width: 80%;
     margin: 0 auto;
 
+    hr {
+        height: 1px;
+        background-color: $hr;
+        margin-bottom: $magic-number;
+    }
+
+    h1 {
+        padding: 1em 0;
+    }
+
     h1,
     h2 {
         text-align: center;
-        padding-bottom: 1em;
     }
     
+    h2,
     h3,
     h4,
-    img {
-        padding-bottom: 1em;
+    img,
+    ol {
+        padding-bottom: $magic-number;
     }
 
     img {
@@ -73,7 +84,22 @@
 
     ol {
         padding-left: 2em;
-        margin-bottom: 2em;
+    }
+
+    .imgdiv {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .imgdiv-smaller {
+        flex-basis: 200px;
+    }
+
+    .colordiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4em;
     }
 }
 
@@ -96,6 +122,10 @@
         img {
             max-width: 100%;
             height: auto;
+        }
+
+        ol li {
+            text-align: left !important;
         }
     }
 }

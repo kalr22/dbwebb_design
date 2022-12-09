@@ -1,9 +1,13 @@
 <div class="header" role="banner">
     <div class="site-header">
-        {% if pages["_meta"].meta.logo %}
+        {% if ( pages["_meta"].meta.logo ) or ( pages["_meta"].meta.LogoDark ) %}
         <div class="logo">
             <a href="{{ base_url }}">
-                <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="logo" />
+                {% if config.session.theme == "dark" %}
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.LogoDark|url }}" alt="logo" />
+                {% else %}
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="logo" />
+                {% endif %}
             </a>
         </div>
         {% endif %}
@@ -13,8 +17,7 @@
                 {{ pages["_meta"].meta.tagline|markdown }}
             </a>
         </div>
-        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false"
-            tabindex="1">
+        <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
             <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
             <span class="sr-only">Toggle Menu</span>
         </a>

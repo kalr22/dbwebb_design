@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "lint": "stylelint \"**/*.scss\"",
+    "lint": "stylelint **/*.scss",
     "watch": "sass kmom04/scss/style.scss:kmom04/css/style.css kmom04/scss/style-dark.scss:kmom04/css/style-dark.css --no-source-map --watch",
     "watch-min": "sass kmom04/scss/style.scss:kmom04/css/style.min.css kmom04/scss/style-dark.scss:kmom04/css/style-dark.min.css --no-source-map --style compressed --watch",
     "style": "npm run style-light && npm run style-dark",

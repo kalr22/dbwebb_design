@@ -7,15 +7,21 @@ Template: analysis
 Färgval och känslan en webbplats signalerar
 =======================
 
+* * *
+
 Tre webbplatser har valts ut till att analysera färgvalet samt känslan de framhäver.
 
 Urval
 -----------------------
 
+* * *
+
 Urvalet för denna analys är baserat på de mest besökta webbsajterna i Sverige under 2022. Tillvägagångssättet har utförts genom en sökning på Google för att få fram Sveriges mest besökta webbsajter under 2022. Därefter valdes den första artikeln ur sökresultatet, vilket är en undersökning som SEO Bloggen gjort vid Expandtalk [1]. De webbplatser som låg i toppen var Wikipedia.org, Facebook.com, Instagram.com Ica.se samt Youtube.com. Då Facebook och Instagram kräver inloggning för att få ta del av hela sajten har ett val gjorts om att inte ta med dem i denna analys. De tre webbplatserna som slutligen valts ut till denna analys är Wikipedia.org, Ica.se samt Youtube.com.
 
 Metod
 -----------------------
+
+* * *
 
 Jag har använt mig av <em>verktyget för webbutvecklare</em> när jag letat efter specifika färger och fonter som webbplatserna använder sig av. 
 
@@ -26,52 +32,62 @@ Samtliga webbplatsers valda typsnitt är även där inhämtade genom <em>verktyg
 Resultat
 -----------------------
 
-### Wikipedia.org
+* * *
+
+### 1. Wikipedia.org
+
+<div class="imgdiv">
+    <img src="%base_url%/image/wikipedia.png?save-as=jpg&w=100%" alt="Screenshot Wikipedia">
+</div>
 
 Wikipedias webbplats är till största delen designad med färgerna vitt och blått. Den grundläggande färgpoletten består av färgerna blått, svart och vitt, vilket utger ett monokromt färgschema.
 
 Jag anser att Wikipedias färgval stämmer ganska bra överens med den känslan de vill uppnå från användaren, vilket jag tror är enkelhet och förtroende.
 
-#### Snapshot Wikipedia
-![Screenshot Wikipedia](%base_url%/image/wikipedia.png?save-as=jpg&q=100&w=500&sharpen)
-
-#### Färgpolett
-<table style="border-spacing: 4px; border-collapse: separate">
-    <tr>
-        <td style="height: 50px; width: 50px; background-color: #a7d7f9">
-        <td style="height: 50px; width: 50px; background-color: #202122">
-        <td style="height: 50px; width: 50px; background-color: #f8f9fa">
-        <td style="height: 50px; width: 50px; background-color: #0645ad">
-    </tr>
-</table>
-
-#### Färghjul
-![Färghjul Wikipedia](%base_url%/image/wikipedia-colorwheel.png?q=100&w=200&sharpen)
+<div class="colordiv">
+    <table style="border-spacing: 4px; border-collapse: separate">
+        <tr>
+            <td style="height: 50px; width: 50px; background-color: #a7d7f9">
+            <td style="height: 50px; width: 50px; background-color: #202122">
+            <td style="height: 50px; width: 50px; background-color: #f8f9fa">
+            <td style="height: 50px; width: 50px; background-color: #0645ad">
+        </tr>
+    </table>
+    <div class="imgdiv-smaller">
+        <img src="%base_url%/image/wikipedia-colorwheel.png?w=100%" alt="Färghjul Wikipedia">
+    </div>
+</div>
 
 Accentfärgerna som uppmärksammats på Wikipedias webbplats är i ett ljusare analogt färgschema. 
 
-#### Snapshot Wikipedia Accentfärg
-![Screenshot Wikipedia Accentfärg](%base_url%/image/wikipedia-accent.png?save-as=jpg&q=100&w=500&sharpen)
+<div class="imgdiv">
+    <img src="%base_url%/image/wikipedia-accent.png?save-as=jpg&w=100%" alt="Screenshot Wikipedia Accentfärg">
+</div>
 
-#### Färgpolett Accentfärg
-<table style="border-spacing: 4px; border-collapse: separate">
-    <tr>
-        <td style="height: 50px; width: 50px; background-color: #f8eaba">
-        <td style="height: 50px; width: 50px; background-color: #cef2e0">
-        <td style="height: 50px; width: 50px; background-color: #cedff2">
-        <td style="height: 50px; width: 50px; background-color: #ddcef2">
-        <td style="height: 50px; width: 50px; background-color: #ffdbdb">
-    </tr>
-</table>
-
-#### Färghjul Accentfärg
-![Färghjul Wikipedia Accentfärg](%base_url%/image/wikipedia-colorwheel-accent.png?q=100&w=200&sharpen)
+<div class="colordiv">
+    <table style="border-spacing: 4px; border-collapse: separate">
+        <tr>
+            <td style="height: 50px; width: 50px; background-color: #f8eaba">
+            <td style="height: 50px; width: 50px; background-color: #cef2e0">
+            <td style="height: 50px; width: 50px; background-color: #cedff2">
+            <td style="height: 50px; width: 50px; background-color: #ddcef2">
+            <td style="height: 50px; width: 50px; background-color: #ffdbdb">
+        </tr>
+    </table>
+    <div class="imgdiv-smaller">
+        <img src="%base_url%/image/wikipedia-colorwheel-accent.png?w=100%" alt="Färghjul Wikipedia Accentfärg">
+    </div>
+</div>
 
 #### Typografi
 
 Det verkar som om Wikipedia använder sig av en default font-family satt i sans-serif nästan överallt på webbplatsen. Det finns inget namn på just den fonten utifrån informationen hämtad från <em>verktyget för webbutvecklare</em>. Den font som sticker ut på Wikipedias webbplats är titlarna där font-familjen "Linux Libertine, Georgi, Times, serif" används.
 
-### Ica.se
+### 2. Ica.se
+
+<div class="imgdiv">
+    <img src="%base_url%/image/ica.png?save-as=jpg&w=100%" alt="Screenshot Ica">
+</div>
 
 Icas webbplats består till största delen av färgerna vit och ljusbeige samt en svart-liknande färg för typografin. Accentfärgen som uppmärksammats är den gröna färgen #2f6147 som bland annat används till att förstärka rutan under recept-sidorna där tid, ingredienser och svårighetsgrad visualiseras.
 
@@ -79,28 +95,30 @@ Utifrån färgschemat skapat med Adobe Color visas tydligt hur en komplement-fä
 
 Jag anser att Ica lyckats bra med att framhäva den profil de vill åt med hjälp av färg och typografival, vilket jag tror är lyx, nytt och fräscht men samtidigt en profil av förmånliga priser.
 
-#### Snapshot Ica
-![Screenshot Ica](%base_url%/image/ica.png?save-as=jpg&q=100&w=500&sharpen)
-
-#### Färgpolett
-<table style="border-spacing: 4px; border-collapse: separate">
-    <tr>
-        <td style="height: 50px; width: 50px; background-color: #e13205">
-        <td style="height: 50px; width: 50px; background-color: #3a3a3a">
-        <td style="height: 50px; width: 50px; background-color: #f9f5f5">
-        <td style="height: 50px; width: 50px; background-color: #9b0600">
-        <td style="height: 50px; width: 50px; background-color: #2f6147">
-    </tr>
-</table>
-
-#### Färghjul
-![Färghjul Ica](%base_url%/image/ica-colorwheel.png?q=100&w=200&sharpen)
+<div class="colordiv">
+    <table style="border-spacing: 4px; border-collapse: separate">
+        <tr>
+            <td style="height: 50px; width: 50px; background-color: #e13205">
+            <td style="height: 50px; width: 50px; background-color: #3a3a3a">
+            <td style="height: 50px; width: 50px; background-color: #f9f5f5">
+            <td style="height: 50px; width: 50px; background-color: #9b0600">
+            <td style="height: 50px; width: 50px; background-color: #2f6147">
+        </tr>
+    </table>
+    <div class="imgdiv-smaller">
+        <img src="%base_url%/image/ica-colorwheel.png?w=100%" alt="Färghjul Ica">
+    </div>
+</div>
 
 #### Typografi
 
 Typsnittet som används på Icas webbplats för brödtext, rubriker och titlar är ett samspel av flera font-familjer i samma font-familj-regel. Dessa samspelade font-familjer är "Arial, Helvetica Neue, Helvetica" som alla är applicerade på samtliga fonter på webbplatsen. Det som skiljer fonterna åt är Icas egna typsnitt. För brödtext används "Ica text", för rubriker används "Ica rubrik" och för handstilsliknande-skriva texter används "Ica hand". Samtliga fonter på webbplatsen är satta i en sans-serif.
 
-### Youtube.com
+### 3. Youtube.com
+
+<div class="imgdiv">
+    <img src="%base_url%/image/youtube.png?save-as=jpg&w=100%" alt="Screenshot Youtube">
+</div>
 
 Youtube:s webbplats är överlägset designad av färgerna vitt och ljusgrått samt svart till typografin. Accentfärgerna som uppmärksammats är en stark röd färg samt en stark blå färg. Den röda färgen används bland annat i samtliga av Youtube:s olika logotyper samt för att visa om någonting är livesänt. Den blå färgen används exempelvis till att framhäva länkar eller hashtags.
 
@@ -108,22 +126,20 @@ Färgschemat som Youtube använder sig är en triad färgpolett där grundfärge
 
 Jag anser att Youtube har lyckats helt okej med färger och typografin för att motsvara den profil de vill åt, vilket jag tror är enkelhet och en känsla av struktur.
 
-#### Snapshot Youtube
-![Screenshot Youtube](%base_url%/image/youtube.png?save-as=jpg&q=100&w=500&sharpen)
-
-#### Färgpolett
-<table style="border-spacing: 4px; border-collapse: separate">
-    <tr>
-        <td style="height: 50px; width: 50px; background-color: #f2f2f2">
-        <td style="height: 50px; width: 50px; background-color: #065fd4">
-        <td style="height: 50px; width: 50px; background-color: #ff0000">
-        <td style="height: 50px; width: 50px; background-color: #0f0f0f">
-        <td style="height: 50px; width: 50px; background-color: #f0f0f0">
-    </tr>
-</table>
-
-#### Färghjul
-![Färghjul Youtube](%base_url%/image/youtube-colorwheel.png?q=100&w=200&sharpen)
+<div class="colordiv">
+   <table style="border-spacing: 4px; border-collapse: separate">
+        <tr>
+            <td style="height: 50px; width: 50px; background-color: #f2f2f2">
+            <td style="height: 50px; width: 50px; background-color: #065fd4">
+            <td style="height: 50px; width: 50px; background-color: #ff0000">
+            <td style="height: 50px; width: 50px; background-color: #0f0f0f">
+            <td style="height: 50px; width: 50px; background-color: #f0f0f0">
+        </tr>
+    </table>
+    <div class="imgdiv-smaller">
+        <img src="%base_url%/image/youtube-colorwheel.png?w=100%" alt="Färghjul Youtube">
+    </div>
+</div>
 
 #### Typografi
 
@@ -131,6 +147,8 @@ Youtube:s webbplats använder sig av Roboto tillsammans med Arial för brödtext
 
 Analys
 -----------------------
+
+* * *
 
 Vid analys av dessa tre webbplatser: Wikipedia.org, Youtube.com samt Ica.se uppkom en rad intressant information. Samtliga webbplatser använde sig av tydliga färgscheman, vilket som användare kan vara svårt att uppmärksamma vid besök av webbplatsen utan djupare undersökning. 
 
@@ -145,11 +163,15 @@ Sammanfattningsvis har samtliga tre webbplatser lyckats relativt bra med att fra
 Referenser
 -----------------------
 
+* * *
+
 [1] SEO Bloggen. (9 jan 2022). Sveriges största webbsajter 2022. https://expandtalk.se/sveriges-storsta-webbsajter-2022/
 
 [2] Adobe Color. https://color.adobe.com/sv/create/color-wheel#
 
 Övrigt
 -----------------------
+
+* * *
 
 Av: Karoline Lindroos 26/11/2022
